@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html long="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <title>accounts list</title>
+
+    <link rel="stylesheet" href="main.css"
+</head>
+<body>
+    <header>
+        <h1>List of accounts</h1>
+        <form id="new-task-form">
+            <input 
+            type="text"  
+            id="new-task-input">
+        <input 
+        type="submit" 
+        id="new-task-submit"
+        value="Add task" />
+        </form>
+    </header>
+        <main>
+            <section class='accounts-list'>
+                <h2>list</h2>
+                <div id="list">
+                    <div class="list">
+                        <div class="content">
+                            <input 
+                            type="text"
+                            class="text"
+                            value="list"
+                            readonly
+                            />
+                        </div>
+                        <div class="actions">
+                            <button class="edit"> edit</button>
+                            <button class="delete">delete</button>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+        <script src="main.js"></script>
+</body>
+</html>
