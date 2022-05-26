@@ -52,7 +52,6 @@ ul li:hover
 .col-md-8 mt-1
 {
     background: #333333;
-.row
-{
-    color: white;
+    color: #fff;
+    width: auto;
 }
